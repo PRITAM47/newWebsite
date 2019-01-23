@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Ability Care</title>
+    <title>Disability Care</title>
 
     <!-- -------------BOOTSTRAP CSS----------- -->
     <link
@@ -20,12 +20,21 @@
       href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
     />
 
+    <link
+    href="https://fonts.googleapis.com/css?family=Ubuntu"
+    rel="stylesheet"
+  />
+
     <!-- -------------CSS-------------------  -->
     <link rel="stylesheet" href="css/style.css" />
 
     <style type="text/css">
       /* Extra small devices (phones, 600px and down) */
       @media only screen and (max-width: 400px) {
+        body{
+          overflow-x: hidden;
+          width: 100%;
+        }
         .navbar {
           z-index: 200;
         }
@@ -36,11 +45,13 @@
         .contact-box {
           width: 100%;
           margin: 25px;
+          margin-left: -2rem;
         }
 
         .message-box {
           width: 100%;
           padding: 0px;
+          margin-left: -2rem;
         }
         textarea {
           width: 100%;
@@ -57,7 +68,7 @@
     <div class="main-header">
       <nav class="navbar navbar-expand-md test">
         <header class="container header">
-          <a class="my-brand" href="index.html">ABILITY CARE</a>
+          <a class="my-brand" href="index.html" style="font-family: 'Ubuntu', sans-serif;">DISABILITY CARE</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -73,10 +84,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item ">
-                <a class="nav-link my-link" href="index.html">HOME </a>
+                <a class="nav-link my-link" href="index.html" style="font-family: 'Ubuntu', sans-serif;">HOME </a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link my-link " href="about.html">ABOUT US </a>
+                <a class="nav-link my-link " href="about.html" style="font-family: 'Ubuntu', sans-serif;">ABOUT US </a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -86,7 +97,7 @@
                   role="button"
                   data-toggle="dropdown"
                   aria-haspopup="true"
-                  aria-expanded="false"
+                  aria-expanded="false" style="font-family: 'Ubuntu', sans-serif;"
                 >
                   SERVICES
                 </a>
@@ -94,22 +105,22 @@
                   class="dropdown-menu my-item"
                   aria-labelledby="navbarDropdown"
                 >
-                  <a class="dropdown-item" href="therapeutic.html"
+                  <a class="dropdown-item" href="therapeutic.html" style="font-family: 'Ubuntu', sans-serif;"
                     >THERAPEUTIC SUPPORT</a
                   >
-                  <a class="dropdown-item" href="planManagement.html"
+                  <a class="dropdown-item" href="planManagement.html" style="font-family: 'Ubuntu', sans-serif;"
                     >PLAN MANAGEMENT</a
                   >
-                  <a class="dropdown-item" href="participateCommunity.html"
+                  <a class="dropdown-item" href="participateCommunity.html" style="font-family: 'Ubuntu', sans-serif;"
                     >PARTICIPATE COMMUNITY</a
                   >
-                  <a class="dropdown-item" href="communityNursing.html"
+                  <a class="dropdown-item" href="communityNursing.html" style="font-family: 'Ubuntu', sans-serif;"
                     >COMMUNITY NURSING CARE</a
                   >
                 </div>
               </li>
               <li class="nav-item ">
-                <a class="nav-link my-link active my-active" href="contact.html"
+                <a class="nav-link my-link active my-active" href="contact.html" style="font-family: 'Ubuntu', sans-serif;"
                   >CONTACT US<span class="sr-only">(current)</span></a
                 >
               </li>
@@ -120,10 +131,10 @@
     </div>
 
     <div class="contact-first-section">
-      <div class="container"><h2>Contact Us</h2></div>
+      <div class="container"><h2 style="font-family: 'Ubuntu', sans-serif;">Contact Us</h2></div>
     </div>
 
-    <div class="contact-second-section container">
+    <div class="contact-second-section container" style="font-family: 'Ubuntu', sans-serif;">
       <div class="contact-box">
         <div>
           <i class="fas fa-map fa-2x"></i>
@@ -138,7 +149,7 @@
         </div>
       </div>
 
-      <div class="message-box">
+      <div class="message-box" style="font-family: 'Ubuntu', sans-serif;">
         <h2>Leave a Message</h2>
 
         <form>
@@ -160,7 +171,7 @@
           <div class="row">
             <div class="col">
               <textarea
-                cols="81"
+                cols="70"
                 rows="5"
                 placeholder="Write your message..."
               ></textarea>
@@ -183,8 +194,38 @@
       ></iframe>
     </div>
 
-    <div class="card-footer" style="background-color: #24a0de; color:#fff;">
-      &copy; 2019.All Rights Reserved.Ability Care
+    <div class="card-group" style="border:1px solid #253559;">
+      <div class="card wow slideInLeft" style="background-color:#252525;">
+        <div class="card-body">
+          <h5 class="card-title" style="color:#ffc800;">OUR LINKS</h5>
+          <p style="text-align: center;"><a class="card-text" href="index.html" style="text-decoration:none; color: #fff; font-weight: bold; ">Home</a><hr></p>
+          <p style="text-align: center;"><a class="card-text" href="about.html" style="text-decoration:none; color: #fff; font-weight: bold; ">About Us</a><hr></p>
+          <p style="text-align: center;"><a class="card-text" href="contact.html" style="text-decoration:none; color: #fff; font-weight: bold; ">Contact Us</a></p>
+       </div>
+        
+      </div>
+      <div class="card wow slideIn" style="background-color:#252525;">
+        <div class="card-body">
+          <h5 class="card-title" style="color:#ffc800;">OUR SERVICES</h5>
+          <p class="card-text" style="color:#fff; text-align: center;">THERAPEUTIC SUPPORT <hr></p>
+          <p class="card-text" style="color:#fff; text-align: center;">PLAN MANAGEMENT <hr></p>
+          <p class="card-text" style="color:#fff; text-align: center;">PARTICIPATE COMMUNITY <hr></p>
+          <p class="card-text" style="color:#fff; text-align: center;">COMMUNITY NURSING CARE</p>
+        </div>
+        
+      </div>
+      <div class="card wow slideInRight" style="background-color:#252525;">
+        <div class="card-body">
+          <h5 class="card-title" style="color:#ffc800;">CONTACT US</h5>
+          <p class="card-text" style="color:#fff; text-align: center;"><i class="fas fa-envelope"></i> www.disabilitycare.com <hr></p>
+          <p class="card-text" style="color:#fff; text-align: center;"><i class="fas fa-phone"></i> +91-0000000111 <hr></p>
+          <p class="card-text" style="color:#fff; text-align: center;"><i class="fas fa-map-marker-alt"></i> 3 Wineglass Dr, Hillcrest QLD 4118, Australia</p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="card-footer" style="background-color: #253559; color:#fff;">
+      &copy; 2019.All Rights Reserved.Disability Care
     </div>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
